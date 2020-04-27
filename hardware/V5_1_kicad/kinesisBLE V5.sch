@@ -1,0 +1,854 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12471 10492
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4100 3000 3800 3000
+Wire Wire Line
+	3800 3000 3300 3000
+Wire Wire Line
+	3800 3000 3800 2700
+Wire Wire Line
+	3800 2700 3600 2700
+Wire Wire Line
+	3800 2700 4100 2700
+Wire Wire Line
+	4100 2700 4500 2700
+Text Label 3300 3000 0    70   ~ 0
+3V@1
+Connection ~ 3800 3000
+Connection ~ 3800 2700
+Connection ~ 4100 2700
+Wire Wire Line
+	3600 3200 3300 3200
+Text Label 3300 3200 0    70   ~ 0
+3V@1
+Wire Wire Line
+	6700 3200 6400 3200
+Text Label 6400 3200 0    70   ~ 0
+3V@1
+Wire Wire Line
+	6900 2100 6900 2400
+Text Label 6900 2400 1    70   ~ 0
+3V@1
+Wire Wire Line
+	4100 4200 3800 4200
+Text Label 3800 4200 0    70   ~ 0
+GND
+Wire Wire Line
+	4100 4300 3800 4300
+Text Label 3800 4300 0    70   ~ 0
+GND
+Wire Wire Line
+	4100 4400 3800 4400
+Text Label 3800 4400 0    70   ~ 0
+GND
+Wire Wire Line
+	6700 3400 6400 3400
+Text Label 6400 3400 0    70   ~ 0
+GND
+Wire Wire Line
+	9300 4300 9600 4300
+Text Label 9400 4300 0    70   ~ 0
+GND
+Wire Wire Line
+	6600 2100 6600 2400
+Text Label 6600 2400 1    70   ~ 0
+GND
+Wire Wire Line
+	3600 2400 3600 2100
+Text Label 3600 2300 1    70   ~ 0
+GND
+Wire Wire Line
+	4100 2400 4100 2100
+Text Label 4100 2300 1    70   ~ 0
+GND
+Wire Wire Line
+	8800 7300 8800 7500
+Text Label 8800 7500 1    70   ~ 0
+GND
+Wire Wire Line
+	9200 7300 9200 7500
+Text Label 9200 7500 1    70   ~ 0
+GND
+Wire Wire Line
+	9600 7300 9600 7500
+Text Label 9600 7500 1    70   ~ 0
+GND
+Wire Wire Line
+	10000 7300 10000 7500
+Text Label 10000 7500 1    70   ~ 0
+GND
+Wire Wire Line
+	4500 2400 4500 2100
+Text Label 4500 2300 1    70   ~ 0
+GND
+Wire Wire Line
+	10000 2200 11000 2200
+Text Label 10700 2200 0    70   ~ 0
+ROW-1
+Wire Wire Line
+	6700 3700 6400 3700
+Text Label 6400 3700 0    70   ~ 0
+ROW-1
+Wire Wire Line
+	10000 2900 11000 2900
+Text Label 10700 2900 0    70   ~ 0
+ROW-2
+Wire Wire Line
+	6700 3600 6400 3600
+Text Label 6400 3600 0    70   ~ 0
+ROW-2
+Wire Wire Line
+	10000 2600 11000 2600
+Text Label 10700 2600 0    70   ~ 0
+ROW-3
+Wire Wire Line
+	6700 3500 6400 3500
+Text Label 6400 3500 0    70   ~ 0
+ROW-3
+Wire Wire Line
+	2000 2700 3100 2700
+Text Label 2800 2700 0    70   ~ 0
+ROW-4
+Wire Wire Line
+	8400 3800 8700 3800
+Text Label 8400 3800 0    70   ~ 0
+ROW-4
+Wire Wire Line
+	2000 3000 3100 3000
+Text Label 2800 3000 0    70   ~ 0
+ROW-5
+Wire Wire Line
+	8400 3900 8700 3900
+Text Label 8400 3900 0    70   ~ 0
+ROW-5
+Text Label 4800 8000 1    70   ~ 0
+ROW-6
+Wire Wire Line
+	2000 2400 3100 2400
+Text Label 2800 2400 0    70   ~ 0
+ROW-6
+Wire Wire Line
+	2000 2500 3100 2500
+Text Label 2800 2500 0    70   ~ 0
+ROW-6
+Wire Wire Line
+	8400 4000 8700 4000
+Text Label 8400 4000 0    70   ~ 0
+ROW-6
+Text Label 4900 8000 1    70   ~ 0
+ROW-7
+Wire Wire Line
+	8400 4100 8700 4100
+Text Label 8400 4100 0    70   ~ 0
+ROW-7
+Wire Wire Line
+	5100 3000 5500 3000
+Text Label 5200 3000 0    70   ~ 0
+COL-A
+Wire Wire Line
+	5100 3100 5500 3100
+Text Label 5200 3100 0    70   ~ 0
+COL-B
+Text Label 5100 8000 1    70   ~ 0
+COL-C
+Wire Wire Line
+	5100 3200 5500 3200
+Text Label 5200 3200 0    70   ~ 0
+COL-C
+Text Label 4500 8000 1    70   ~ 0
+COL-D
+Wire Wire Line
+	5100 3300 5500 3300
+Text Label 5200 3300 0    70   ~ 0
+COL-D
+Text Label 5200 8000 1    70   ~ 0
+COL-E
+Wire Wire Line
+	5100 3400 5500 3400
+Text Label 5200 3400 0    70   ~ 0
+COL-E
+Text Label 5000 8000 1    70   ~ 0
+COL-F
+Wire Wire Line
+	5100 3500 5500 3500
+Text Label 5200 3500 0    70   ~ 0
+COL-F
+Wire Wire Line
+	5100 3600 5500 3600
+Text Label 5200 3600 0    70   ~ 0
+COL-G
+Wire Wire Line
+	5100 3700 5500 3700
+Text Label 5200 3700 0    70   ~ 0
+COL-H
+Wire Wire Line
+	5100 3900 5500 3900
+Text Label 5200 3900 0    70   ~ 0
+COL-I
+Wire Wire Line
+	5100 4000 5500 4000
+Text Label 5200 4000 0    70   ~ 0
+COL-J
+Wire Wire Line
+	5100 4100 5500 4100
+Text Label 5200 4100 0    70   ~ 0
+COL-K
+Wire Wire Line
+	5100 4200 5500 4200
+Text Label 5200 4200 0    70   ~ 0
+COL-L
+Wire Wire Line
+	10000 2300 11000 2300
+Text Label 10700 2300 0    70   ~ 0
+COL-M
+Text Label 2800 2600 0    70   ~ 0
+COL-M
+Wire Wire Line
+	5100 4300 5500 4300
+Text Label 5200 4300 0    70   ~ 0
+COL-M
+Wire Wire Line
+	10000 2400 11000 2400
+Text Label 10700 2400 0    70   ~ 0
+COL-N
+Wire Wire Line
+	10000 2700 11000 2700
+Text Label 10700 2700 0    70   ~ 0
+COL-N
+Wire Wire Line
+	10000 3100 11000 3100
+Text Label 10700 3100 0    70   ~ 0
+COL-N
+Wire Wire Line
+	2000 2200 3100 2200
+Text Label 2800 2200 0    70   ~ 0
+COL-N
+Text Label 2800 2900 0    70   ~ 0
+COL-N
+Text Label 2800 3200 0    70   ~ 0
+COL-N
+Wire Wire Line
+	5100 4400 5500 4400
+Text Label 5200 4400 0    70   ~ 0
+COL-N
+Wire Wire Line
+	10000 2500 11000 2500
+Text Label 10700 2500 0    70   ~ 0
+COL-O
+Wire Wire Line
+	10000 2800 11000 2800
+Text Label 10700 2800 0    70   ~ 0
+COL-O
+Wire Wire Line
+	10000 3200 11000 3200
+Text Label 10700 3200 0    70   ~ 0
+COL-O
+Wire Wire Line
+	2000 2300 3100 2300
+Text Label 2800 2300 0    70   ~ 0
+COL-O
+Wire Wire Line
+	2000 2800 3100 2800
+Text Label 2800 2800 0    70   ~ 0
+COL-O
+Wire Wire Line
+	2000 3100 3100 3100
+Text Label 2800 3100 0    70   ~ 0
+COL-O
+Wire Wire Line
+	5100 4500 5500 4500
+Text Label 5200 4500 0    70   ~ 0
+COL-O
+Wire Wire Line
+	5100 4600 5500 4600
+Wire Wire Line
+	4100 3200 4000 3200
+Wire Wire Line
+	6400 3300 6700 3300
+Text Label 6400 3300 0    70   ~ 0
+AREF
+Wire Wire Line
+	9300 3700 9300 3800
+Wire Wire Line
+	9300 3800 9300 3900
+Wire Wire Line
+	9300 3800 9600 3800
+Connection ~ 9300 3800
+Text Label 9500 3800 0    70   ~ 0
+AREF
+Wire Wire Line
+	8400 3700 8900 3700
+Wire Wire Line
+	7000 2100 7000 2400
+Text Label 7000 2400 1    70   ~ 0
+BLUE
+Wire Wire Line
+	6700 4000 6400 4000
+Text Label 6400 4000 0    70   ~ 0
+BLUE
+Wire Wire Line
+	8400 3600 8700 3600
+Text Label 8600 3600 0    70   ~ 0
+EN
+Wire Wire Line
+	6500 2100 6500 2400
+Text Label 6500 2400 1    70   ~ 0
+EN
+Wire Wire Line
+	8800 7000 8800 6900
+Wire Wire Line
+	9200 7000 9200 6900
+Wire Wire Line
+	9600 7000 9600 6900
+Wire Wire Line
+	10000 7000 10000 6900
+Wire Wire Line
+	9200 6500 9200 6200
+Text Label 9200 6400 1    70   ~ 0
+NUM
+Wire Wire Line
+	6700 3900 6400 3900
+Text Label 6400 3900 0    70   ~ 0
+NUM
+Wire Wire Line
+	8800 6500 8800 6200
+Text Label 8800 6400 1    70   ~ 0
+CAPS
+Wire Wire Line
+	6700 3800 6400 3800
+Text Label 6400 3800 0    70   ~ 0
+CAPS
+Wire Wire Line
+	10000 6500 10000 6200
+Text Label 10000 6400 1    70   ~ 0
+KEY
+Wire Wire Line
+	8400 4300 8700 4300
+Text Label 8500 4300 0    70   ~ 0
+KEY
+Wire Wire Line
+	9600 6500 9600 6200
+Text Label 9600 6400 1    70   ~ 0
+SCR
+Wire Wire Line
+	8400 4200 8700 4200
+Text Label 8500 4200 0    70   ~ 0
+SCR
+Wire Wire Line
+	6700 4100 6400 4100
+Text Label 6400 4100 0    70   ~ 0
+SCK
+Wire Wire Line
+	4100 3800 3800 3800
+Text Label 3800 3800 0    70   ~ 0
+SCK
+Wire Wire Line
+	6700 4200 6400 4200
+Text Label 6400 4200 0    70   ~ 0
+MOSI
+Wire Wire Line
+	4100 3900 3800 3900
+Text Label 3800 3900 0    70   ~ 0
+MOSI
+Wire Wire Line
+	6700 4300 6400 4300
+Text Label 6400 4300 0    70   ~ 0
+MISO
+Wire Wire Line
+	4100 4000 3800 4000
+Text Label 3800 4000 0    70   ~ 0
+MISO
+Wire Wire Line
+	4100 3700 3800 3700
+Text Label 3800 3700 0    70   ~ 0
+SS
+Wire Wire Line
+	8400 4400 8700 4400
+Text Label 8500 4400 0    70   ~ 0
+SS
+$Comp
+L kinesisBLE_V5-eagle-import:NRF52FEATHER U$1
+U 1 1 BABD3B23
+P 7600 3700
+F 0 "U$1" H 7600 3700 50  0001 C CNN
+F 1 "NRF52FEATHER" H 7600 3700 50  0001 C CNN
+F 2 "kinesisBLE V5:NRF52FEATHER" H 7600 3700 50  0001 C CNN
+F 3 "" H 7600 3700 50  0001 C CNN
+	1    7600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:TOPLINKS_STAPELBERG U$2
+U 1 1 A8B04D1A
+P 2000 2600
+F 0 "U$2" H 2000 2600 50  0001 C CNN
+F 1 "Cvilux CF01131V000" H 2000 2600 50  0001 C CNN
+F 2 "kinesisBLE V5:TOPLINKS_STAPELBERG" H 2000 2600 50  0001 C CNN
+F 3 "" H 2000 2600 50  0001 C CNN
+	1    2000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:TOPLINKS_STAPELBERG U$3
+U 1 1 54307519
+P 10000 2600
+F 0 "U$3" H 10000 2600 50  0001 C CNN
+F 1 "Cvilux CF01131V000" H 10000 2600 50  0001 C CNN
+F 2 "kinesisBLE V5:TOPLINKS_STAPELBERG" H 10000 2600 50  0001 C CNN
+F 3 "" H 10000 2600 50  0001 C CNN
+	1    10000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:TOPLINKS_STAPELBERG U$6
+U 1 1 371C5F19
+P 4800 7000
+F 0 "U$6" H 4800 7000 50  0001 C CNN
+F 1 "Cvilux CF01131V000" H 4800 7000 50  0001 C CNN
+F 2 "kinesisBLE V5:TOPLINKS_STAPELBERG" H 4800 7000 50  0001 C CNN
+F 3 "" H 4800 7000 50  0001 C CNN
+	1    4800 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:10KOHM-HORIZ-1_4W-5% R1
+U 1 1 B9BAFB95
+P 3800 3200
+F 0 "R1" H 3800 3260 70  0000 C BNN
+F 1 "10k" H 3800 3140 70  0000 C TNN
+F 2 "kinesisBLE V5:AXIAL-0.3" H 3800 3200 50  0001 C CNN
+F 3 "" H 3800 3200 50  0001 C CNN
+	1    3800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:10KOHM-HORIZ-1_4W-5% R4
+U 1 1 98DC0D12
+P 9100 3700
+F 0 "R4" H 9100 3760 70  0000 C BNN
+F 1 "10k" H 9100 3640 70  0000 C TNN
+F 2 "kinesisBLE V5:AXIAL-0.3" H 9100 3700 50  0001 C CNN
+F 3 "" H 9100 3700 50  0001 C CNN
+	1    9100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:10KOHM-HORIZ-1_4W-5% R5
+U 1 1 0764E48A
+P 9300 4100
+F 0 "R5" H 9300 4160 70  0000 C BNN
+F 1 "10k" H 9300 4040 70  0000 C TNN
+F 2 "kinesisBLE V5:AXIAL-0.3" H 9300 4100 50  0001 C CNN
+F 3 "" H 9300 4100 50  0001 C CNN
+	1    9300 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:JST-XH-02-PIN-ROUND-PAD X1
+U 1 1 753049C4
+P 6600 2000
+F 0 "X1" H 6700 1970 51  0000 L BNN
+F 1 "JST-XH-02-PIN-ROUND-PAD" H 6570 2055 59  0001 L BNN
+F 2 "kinesisBLE V5:JST-XH-02-PACKAGE-ROUND-PAD" H 6600 2000 50  0001 C CNN
+F 3 "" H 6600 2000 50  0001 C CNN
+	1    6600 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:JST-XH-02-PIN-ROUND-PAD X1
+U 2 1 753049C8
+P 6500 2000
+F 0 "X1" H 6600 1970 51  0000 L BNN
+F 1 "JST-XH-02-PIN-ROUND-PAD" H 6470 2055 59  0000 L BNN
+F 2 "kinesisBLE V5:JST-XH-02-PACKAGE-ROUND-PAD" H 6500 2000 50  0001 C CNN
+F 3 "" H 6500 2000 50  0001 C CNN
+	2    6500 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:JST-XH-02-PIN-ROUND-PAD X2
+U 1 1 DDF2E3E2
+P 7000 2000
+F 0 "X2" H 7100 1970 51  0000 L BNN
+F 1 "JST-XH-02-PIN-ROUND-PAD" H 6970 2055 59  0001 L BNN
+F 2 "kinesisBLE V5:JST-XH-02-PACKAGE-ROUND-PAD" H 7000 2000 50  0001 C CNN
+F 3 "" H 7000 2000 50  0001 C CNN
+	1    7000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:JST-XH-02-PIN-ROUND-PAD X2
+U 2 1 DDF2E3EE
+P 6900 2000
+F 0 "X2" H 7000 1970 51  0000 L BNN
+F 1 "JST-XH-02-PIN-ROUND-PAD" H 6870 2055 59  0000 L BNN
+F 2 "kinesisBLE V5:JST-XH-02-PACKAGE-ROUND-PAD" H 6900 2000 50  0001 C CNN
+F 3 "" H 6900 2000 50  0001 C CNN
+	2    6900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:0.1UF-KIT-EZ-50V-20% C1
+U 1 1 F1C90C04
+P 3600 2600
+F 0 "C1" H 3660 2715 70  0000 L BNN
+F 1 "0.1uF" H 3660 2515 70  0000 L BNN
+F 2 "kinesisBLE V5:CAP-PTH-SMALL-KIT" H 3600 2600 50  0001 C CNN
+F 3 "" H 3600 2600 50  0001 C CNN
+	1    3600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:10UF-POLAR-RADIAL-2.5MM-25V-20% C2
+U 1 1 99D41F3B
+P 4100 2600
+F 0 "C2" H 4140 2625 70  0000 L BNN
+F 1 "10uF" H 4140 2435 70  0000 L BNN
+F 2 "kinesisBLE V5:CPOL-RADIAL-2.5MM-5MM" H 4100 2600 50  0001 C CNN
+F 3 "" H 4100 2600 50  0001 C CNN
+	1    4100 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:LED3MM LED1
+U 1 1 D5D4A691
+P 8800 7100
+F 0 "LED1" V 8940 6920 59  0000 L BNN
+F 1 "LED3MM" V 9025 6920 59  0000 L BNN
+F 2 "kinesisBLE V5:LED3MM" H 8800 7100 50  0001 C CNN
+F 3 "" H 8800 7100 50  0001 C CNN
+	1    8800 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:LED3MM LED2
+U 1 1 6A31474D
+P 9200 7100
+F 0 "LED2" V 9340 6920 59  0000 L BNN
+F 1 "LED3MM" V 9425 6920 59  0000 L BNN
+F 2 "kinesisBLE V5:LED3MM" H 9200 7100 50  0001 C CNN
+F 3 "" H 9200 7100 50  0001 C CNN
+	1    9200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:LED3MM LED3
+U 1 1 57046BE5
+P 9600 7100
+F 0 "LED3" V 9740 6920 59  0000 L BNN
+F 1 "LED3MM" V 9825 6920 59  0000 L BNN
+F 2 "kinesisBLE V5:LED3MM" H 9600 7100 50  0001 C CNN
+F 3 "" H 9600 7100 50  0001 C CNN
+	1    9600 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:LED3MM LED4
+U 1 1 0D206A19
+P 10000 7100
+F 0 "LED4" V 10140 6920 59  0000 L BNN
+F 1 "LED3MM" V 10225 6920 59  0000 L BNN
+F 2 "kinesisBLE V5:LED3MM" H 10000 7100 50  0001 C CNN
+F 3 "" H 10000 7100 50  0001 C CNN
+	1    10000 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:330OHM-HORIZ-1_10W-5% R9
+U 1 1 3CB1307B
+P 8800 6700
+F 0 "R9" H 8800 6760 70  0000 C BNN
+F 1 "330" H 8800 6640 70  0000 C TNN
+F 2 "kinesisBLE V5:AXIAL-0.3" H 8800 6700 50  0001 C CNN
+F 3 "" H 8800 6700 50  0001 C CNN
+	1    8800 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:330OHM-HORIZ-1_10W-5% R10
+U 1 1 6B55245B
+P 9200 6700
+F 0 "R10" H 9200 6760 70  0000 C BNN
+F 1 "330" H 9200 6640 70  0000 C TNN
+F 2 "kinesisBLE V5:AXIAL-0.3" H 9200 6700 50  0001 C CNN
+F 3 "" H 9200 6700 50  0001 C CNN
+	1    9200 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:330OHM-HORIZ-1_10W-5% R11
+U 1 1 DD776438
+P 9600 6700
+F 0 "R11" H 9600 6760 70  0000 C BNN
+F 1 "330" H 9600 6640 70  0000 C TNN
+F 2 "kinesisBLE V5:AXIAL-0.3" H 9600 6700 50  0001 C CNN
+F 3 "" H 9600 6700 50  0001 C CNN
+	1    9600 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:330OHM-HORIZ-1_10W-5% R12
+U 1 1 6FDE5510
+P 10000 6700
+F 0 "R12" H 10000 6760 70  0000 C BNN
+F 1 "330" H 10000 6640 70  0000 C TNN
+F 2 "kinesisBLE V5:AXIAL-0.3" H 10000 6700 50  0001 C CNN
+F 3 "" H 10000 6700 50  0001 C CNN
+	1    10000 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:0.1UF-KIT-EZ-50V-20% C3
+U 1 1 DAA3AADF
+P 4500 2600
+F 0 "C3" H 4560 2715 70  0000 L BNN
+F 1 "0.1uF" H 4560 2515 70  0000 L BNN
+F 2 "kinesisBLE V5:CAP-PTH-SMALL-KIT" H 4500 2600 50  0001 C CNN
+F 3 "" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kinesisBLE_V5-eagle-import:MCP23S17SP MCP23S17
+U 1 1 0339B26E
+P 4600 3800
+F 0 "MCP23S17" H 4200 4750 59  0000 L BNN
+F 1 "MCP23S17SP" H 4200 2800 59  0000 L BNN
+F 2 "kinesisBLE V5:DIL28-3" H 4600 3800 50  0001 C CNN
+F 3 "" H 4600 3800 50  0001 C CNN
+	1    4600 3800
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 1900 0    136  ~ 0
+J3
+Text Notes 1500 1900 0    136  ~ 0
+J4
+Text Notes 4500 6200 0    136  ~ 0
+J5
+Text GLabel 8400 3500 0    10   BiDi ~ 0
+VBAT
+Wire Wire Line
+	2000 2600 3100 2600
+Wire Wire Line
+	2000 2900 3100 2900
+Wire Wire Line
+	2000 3200 3100 3200
+$Comp
+L Connector:Conn_01x10_Male J5_ribbon1
+U 1 1 5E9AB9D5
+P 4800 8800
+F 0 "J5_ribbon1" V 4635 8728 50  0000 C CNN
+F 1 "PinHeader_1x10_P2.54mm" V 4726 8728 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4800 8800 50  0001 C CNN
+F 3 "~" H 4800 8800 50  0001 C CNN
+	1    4800 8800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 7000 5200 9000
+Wire Wire Line
+	5100 7000 5100 9000
+Wire Wire Line
+	5000 7000 5000 9000
+Wire Wire Line
+	4900 7000 4900 9000
+Wire Wire Line
+	4800 7000 4800 9000
+Wire Wire Line
+	4500 7000 4500 9000
+Connection ~ 7300 6200
+Wire Wire Line
+	7300 8400 7300 6200
+Wire Wire Line
+	7200 6200 7200 8400
+Connection ~ 7200 6200
+Wire Wire Line
+	7200 5200 7200 6200
+Connection ~ 7100 6200
+Wire Wire Line
+	7100 8400 7100 6200
+Wire Wire Line
+	7000 6200 7000 8400
+Connection ~ 7000 6200
+Wire Wire Line
+	7000 5200 7000 6200
+Wire Wire Line
+	6900 6200 6900 8400
+Connection ~ 6900 6200
+Wire Wire Line
+	6900 5200 6900 6200
+Wire Wire Line
+	6800 6200 6800 8400
+Connection ~ 6800 6200
+Wire Wire Line
+	6800 5200 6800 6200
+$Comp
+L Connector:Conn_01x10_Male J6_ribbon1
+U 1 1 5E9BBE50
+P 7000 8600
+F 0 "J6_ribbon1" V 6927 8528 50  0000 C CNN
+F 1 "PinHeader_1x10_P2.54mm" V 6836 8528 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 7000 8600 50  0001 C CNN
+F 3 "~" H 7000 8600 50  0001 C CNN
+	1    7000 8600
+	0    -1   -1   0   
+$EndComp
+Text Notes 6900 4900 0    59   ~ 0
+Adafruit NRF52 Feather
+Text Notes 7100 7100 0    136  ~ 0
+J6
+$Comp
+L kinesisBLE_V5-eagle-import:TOPLINKS_STAPELBERG U$7
+U 1 1 BE1960E8
+P 7000 6200
+F 0 "U$7" H 7000 6200 50  0001 C CNN
+F 1 "Cvilux CF01131V000" H 7000 6200 50  0001 C CNN
+F 2 "kinesisBLE V5:TOPLINKS_STAPELBERG" H 7000 6200 50  0001 C CNN
+F 3 "" H 7000 6200 50  0001 C CNN
+	1    7000 6200
+	0    -1   -1   0   
+$EndComp
+Text Label 7100 5500 1    70   ~ 0
+COL-J
+Wire Wire Line
+	7100 6200 7100 5200
+Text Label 7000 5500 1    70   ~ 0
+COL-I
+Text Label 6900 5500 1    70   ~ 0
+COL-H
+Text Label 6800 5500 1    70   ~ 0
+COL-G
+Text Label 7200 5500 1    70   ~ 0
+ROW-7
+Text Label 7300 5500 1    70   ~ 0
+ROW-6
+Wire Wire Line
+	7300 6200 7300 5200
+$Comp
+L KinesisMolex:CF01131V000 J7
+U 1 1 5ED26FEE
+P 2300 5400
+F 0 "J7" H 2350 6150 50  0000 L CNN
+F 1 "CF01131V000" H 2200 4650 50  0000 L CNN
+F 2 "KinesisMolex:molex 39-53-2134" H 2050 5850 50  0001 C CNN
+F 3 "" H 2050 5850 50  0001 C CNN
+	1    2300 5400
+	1    0    0    -1  
+$EndComp
+Text Label 1650 4850 0    50   ~ 0
+COL-G
+Text Label 1650 4950 0    50   ~ 0
+COL-I
+Text Label 1650 5050 0    50   ~ 0
+COL-H
+Text Label 1650 5150 0    50   ~ 0
+ROW-5
+Text Label 1650 5350 0    50   ~ 0
+COL-L
+Text Label 1650 5450 0    50   ~ 0
+ROW-4
+Text Label 1650 5550 0    50   ~ 0
+ROW-3
+Text Label 1650 5650 0    50   ~ 0
+ROW-2
+Text Label 1650 5750 0    50   ~ 0
+ROW-1
+Text Label 1650 5950 0    50   ~ 0
+COL-J
+Text Label 1650 6050 0    50   ~ 0
+COL-K
+Wire Wire Line
+	2050 4850 1650 4850
+Wire Wire Line
+	2050 4950 1650 4950
+Wire Wire Line
+	2050 5050 1650 5050
+Wire Wire Line
+	2050 5150 1650 5150
+Wire Wire Line
+	2050 5350 1650 5350
+Wire Wire Line
+	2050 5450 1650 5450
+Wire Wire Line
+	2050 5550 1650 5550
+Wire Wire Line
+	2050 5650 1650 5650
+Wire Wire Line
+	2050 5750 1650 5750
+Wire Wire Line
+	2050 5950 1650 5950
+Wire Wire Line
+	2050 6050 1650 6050
+Text Label 3800 4600 0    70   ~ 0
+GND
+Wire Wire Line
+	4100 4600 3800 4600
+$Comp
+L KinesisMolex:CF01131V000 J2
+U 1 1 5EE94B1C
+P 10350 5200
+F 0 "J2" H 10350 5950 50  0000 L CNN
+F 1 "CF01131V000" H 10150 4450 50  0000 L CNN
+F 2 "KinesisMolex:molex 39-53-2134" H 10100 5650 50  0001 C CNN
+F 3 "" H 10100 5650 50  0001 C CNN
+	1    10350 5200
+	1    0    0    -1  
+$EndComp
+Text Label 9800 4650 0    50   ~ 0
+ROW-1
+Text Label 9800 4750 0    50   ~ 0
+COL-F
+Text Label 9800 4850 0    50   ~ 0
+COL-E
+Text Label 9800 4950 0    50   ~ 0
+COL-D
+Text Label 9800 5150 0    50   ~ 0
+COL-C
+Text Label 9800 5250 0    50   ~ 0
+COL-B
+Text Label 9800 5350 0    50   ~ 0
+COL-A
+Text Label 9800 5450 0    50   ~ 0
+ROW-2
+Text Label 9800 5650 0    50   ~ 0
+ROW-3
+Text Label 9800 5750 0    50   ~ 0
+ROW-4
+Text Label 9800 5850 0    50   ~ 0
+ROW-5
+Wire Wire Line
+	10100 4650 9800 4650
+Wire Wire Line
+	9800 4750 10100 4750
+Wire Wire Line
+	10100 4850 9800 4850
+Wire Wire Line
+	9800 4950 10100 4950
+Wire Wire Line
+	10100 5150 9800 5150
+Wire Wire Line
+	9800 5250 10100 5250
+Wire Wire Line
+	10100 5350 9800 5350
+Wire Wire Line
+	9800 5450 10100 5450
+Wire Wire Line
+	10100 5650 9800 5650
+Wire Wire Line
+	9800 5750 10100 5750
+Wire Wire Line
+	10100 5850 9800 5850
+$EndSCHEMATC

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name kinesisBLE_V5-eagle-import)(type Legacy)(uri ${KIPRJMOD}/kinesisBLE_V5-eagle-import.lib)(options "")(descr ""))
+  (lib (name kinesisMolex)(type Legacy)(uri ${KIPRJMOD}/kinesisMolex.lib)(options "")(descr "")(disabled))
+  (lib (name KinesisMolex)(type Legacy)(uri ${KIPRJMOD}/KinesisMolex.lib)(options "")(descr ""))
+)

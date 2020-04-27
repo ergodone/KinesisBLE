@@ -1,0 +1,6 @@
+# KinesisBLE with Kinesis Professional compatible PCB
+
+
+
+These are KiCad files for the KinesisBLE PCB.  The PCB has been made slightly smaller while still maintaining the same connector locations. There is also the option of using the PCB in a Kinesis Professional (with the flex PCB "fingers") by using different connectors on J2 and J7.
+
