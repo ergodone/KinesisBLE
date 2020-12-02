@@ -1,3 +1,7 @@
+# About this fork
+
+Hardware only - see the hardware Readme.
+
 # Wireless Kinesis Advantage BLE (Bluetooth Low Energy)
 
 Turns the [Kinesis Advantage Keyboard](https://www.kinesis-ergo.com/shop/advantage2/) keyboard into a wireless BLE keyboard with a few extra features. Built with Adafruit's nRF52 Feather Arduino boards.
