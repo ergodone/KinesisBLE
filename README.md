@@ -1,10 +1,12 @@
 # About this fork
 
-Hardware only - see the hardware Readme.
+Adds support for the Kinesis Advantage or Professional keyboard to the original KinesisBLE design.  Also makes the PCB slightly smaller which should help minimize cost.  The redesign has been done in open-source and free Kicad which should help future development.
+
+Hardware only - see the hardware Readme but ZMK is supported on the board in addition to mikewudev's firmware.  See my [ZMK repository](https://github.com/ergodone/zmk). 
 
 # Wireless Kinesis Advantage BLE (Bluetooth Low Energy)
 
-Turns the [Kinesis Advantage Keyboard](https://www.kinesis-ergo.com/shop/advantage2/) keyboard into a wireless BLE keyboard with a few extra features. Built with Adafruit's nRF52 Feather Arduino boards.
+Turns the [Kinesis Advantage Keyboard](https://www.kinesis-ergo.com/shop/advantage2/) keyboard into a wireless BLE keyboard with a few extra features. Built with Adafruit's nRF52 Feather Express Arduino boards.
 
 For instructions, see the **[wiki](https://github.com/sysdevmike/KinesisBLE/wiki)**. For more details on the build check out the **[project](https://hackaday.io/project/161578-wireless-ble-kinesis-advantage-custom-controller)**.
 
