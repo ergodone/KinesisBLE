@@ -1,4 +1,4 @@
-update=Tue 14 Apr 2020 12:26:35 PM MST
+update=Friday, March 05, 2021 at 10:39:10 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=kinesisBLE V5_update2.net
+LastNetListRead=kinesisBLE V5.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.0508
 SolderMaskMinWidth=0.101
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=Top
 Type=0

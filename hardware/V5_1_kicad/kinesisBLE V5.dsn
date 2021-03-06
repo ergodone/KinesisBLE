@@ -1,9 +1,9 @@
-(pcb "/home/jpbonn/kicad/kinesisBLEv5_2/kinesisBLE V5.dsn"
+(pcb "/Users/jpbonn/Documents/KinesisBLE/hardware/V5_1_kicad/kinesisBLE V5.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "5.1.5-1.fc31")
+    (host_version "(5.1.9-0-10_14)")
   )
   (resolution um 10)
   (unit um)
@@ -24,12 +24,8 @@
       (path pcb 0  202000 -148000  95000 -148000  95000 -62000  202000 -62000
             202000 -148000)
     )
-    (keepout "" (polygon Bottom 0  109200 -116000  107000 -116000  107000 -111000  109200 -111000
-            109200 -116000))
-    (keepout "" (polygon Bottom 0  190000 -115800  187800 -115835  187800 -110835  190000 -110800
-            190000 -115800))
-    (keepout "" (polygon Bottom 0  187800 -110965  187800 -111165  187600 -110965  187800 -110965))
-    (keepout "" (polygon Bottom 0  187800 -110965  187800 -111165  187600 -110965  187800 -110965))
+    (keepout "" (polygon Bottom 0  188100 -113983  185900 -114017  186000 -111000  185800 -110965
+            186000 -110965  186000 -110835  188200 -110800  188100 -113983))
     (keepout "" (polygon Top 0  202000 -148000  95000 -148000  95000 -147000  202000 -147000
             202000 -148000))
     (keepout "" (polygon Bottom 0  202000 -148000  95000 -148000  95000 -147000  202000 -147000
@@ -46,6 +42,16 @@
             96000 -148000))
     (keepout "" (polygon Bottom 0  96000 -148000  95000 -148000  95000 -62000  96000 -62000
             96000 -148000))
+    (keepout "" (polygon Top 0  136000 -67000  109000 -67000  109000 -62000  136000 -62000
+            136000 -67000))
+    (keepout "" (polygon Bottom 0  136000 -67000  109000 -67000  109000 -62000  136000 -62000
+            136000 -67000))
+    (keepout "" (polygon Bottom 0  111000 -114000  108800 -114000  108800 -111000  111000 -111000
+            111000 -114000))
+    (keepout "" (polygon Top 0  201000 -65000  96000 -65000  96000 -63000  201000 -63000
+            201000 -65000))
+    (keepout "" (polygon Bottom 0  201000 -65000  96000 -65000  96000 -63000  201000 -63000
+            201000 -65000))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
@@ -59,8 +65,8 @@
       (place Hole1 148500 -86500 front 0 (PN MountingHole_6.5mm_M6_DIN965_Pad))
     )
     (component "KinesisMolex:alignment kinesis"
-      (place align1 108100 -109700 front 0 (PN "alignment kinesis"))
-      (place align2 188900 -109700 front 0 (PN "alignment kinesis"))
+      (place align1 108600 -109700 front 0 (PN "alignment kinesis"))
+      (place align2 188400 -109700 front 0 (PN "alignment kinesis"))
     )
     (component MountingHole:MountingHole_4.3mm_M4_DIN965_Pad
       (place hole2 148500 -118000 front 0 (PN MountingHole_4.3mm_M4_DIN965_Pad))
@@ -72,26 +78,26 @@
       (place U$7 107501 -140004 back 270 (PN "Cvilux CF01131V000"))
     )
     (component "KinesisMolex:molex 39-53-2134"
-      (place J7 101000 -122150 front 270 (PN CF01131V000))
+      (place J7 103000 -122150 front 270 (PN CF01131V000))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical
       (place J5_ribbon1 175600 -145000 front 90 (PN PinHeader_1x10_P2.54mm))
     )
     (component "kinesisBLE V5:NRF52FEATHER"
-      (place U$1 125001 -92704 front 90 (PN NRF52FEATHER))
+      (place U$1 122001 -88704 front 90 (PN NRF52FEATHER))
     )
     (component "kinesisBLE V5:AXIAL-0.3"
       (place R1 149900 -107900 front 0 (PN 10k))
-      (place R4 103800 -93000 front 270 (PN 10k))
-      (place R5 99400 -92900 front 270 (PN 10k))
+      (place R4 146000 -71000 front 270 (PN 10k))
+      (place R5 139400 -70900 front 270 (PN 10k))
       (place R9 163751 -135004 front 0 (PN 330))
       (place R10 153551 -135004 front 0 (PN 330))
       (place R11 143451 -135004 front 0 (PN 330))
       (place R12 133251 -135004 front 0 (PN 330))
     )
     (component "kinesisBLE V5:JST-XH-02-PACKAGE-ROUND-PAD"
-      (place X1 102200 -104900 front 90 (PN "JST-XH-02-PIN-ROUND-PAD"))
-      (place X2 121200 -128400 front 90 (PN "JST-XH-02-PIN-ROUND-PAD"))
+      (place X1 103200 -92900 front 90 (PN "JST-XH-02-PIN-ROUND-PAD"))
+      (place X2 180200 -73400 front 90 (PN "JST-XH-02-PIN-ROUND-PAD"))
     )
     (component "kinesisBLE V5:CAP-PTH-SMALL-KIT"
       (place C1 171700 -90300 front 0 (PN 0.1uF))
@@ -113,7 +119,7 @@
       (place J6_ribbon1 121525 -145075 front 270 (PN PinHeader_1x10_P2.54mm))
     )
     (component "KinesisMolex:molex 39-53-2134::1"
-      (place J2 196125 -122075 front 90 (PN CF01131V000))
+      (place J2 194125 -122075 front 90 (PN CF01131V000))
     )
   )
   (library
@@ -787,5 +793,208 @@
     )
   )
   (wiring
+    (wire (path Top 250  146090 -107900  135205 -107900  135161 -107944)(net /3V@1)(type protect))
+    (wire (path Top 250  164931 -105115  164736 -105309  148681 -105309  146090 -107900)(net /3V@1)(type protect))
+    (wire (path Bottom 250  172991 -97021.7  171562 -97021.7  166800 -101783  166800 -103644
+            165329 -105115  164931 -105115)(net /3V@1)(type protect))
+    (wire (path Top 250  172950 -85779.6  172950 -84628.8  173097 -84481.8  173097 -80900)(net /3V@1)(type protect))
+    (wire (path Bottom 250  135161 -107944  128930 -114175  128930 -121940  121200 -129670)(net /3V@1)(type protect))
+    (wire (path Bottom 250  172991 -95274  172991 -97021.7)(net /3V@1)(type protect))
+    (wire (path Bottom 250  173097 -90300  172991 -90406  172991 -95274)(net /3V@1)(type protect))
+    (wire (path Bottom 250  172950 -85779.6  172950 -86930.4  173097 -87077.4  173097 -90300)(net /3V@1)(type protect))
+    (wire (path Top 250  103800 -96810  100611 -99998.8  100611 -106197  101723 -107308
+            133257 -107308  135161 -105404)(net /AREF)(type protect))
+    (wire (path Bottom 250  99400 -89090  99400 -92410  103800 -96810)(net /AREF)(type protect))
+    (wire (path Top 250  135161 -102864  134395 -103630  102200 -103630)(net /GND)(type protect))
+    (wire (path Top 250  160291 -102894  160261 -102864  135161 -102864)(net /GND)(type protect))
+    (wire (path Bottom 250  164206 -102894  162831 -102894)(net /GND)(type protect))
+    (wire (path Bottom 250  165371 -102894  164206 -102894  164206 -142001  164922 -142718
+            164922 -144603  163751 -145774)(net /GND)(type protect))
+    (wire (path Top 250  160291 -102894  162831 -102894)(net /GND)(type protect))
+    (wire (path Top 250  170450 -85779.6  170303 -85632.6  170303 -80900)(net /GND)(type protect))
+    (wire (path Top 250  143451 -145774  133251 -145774)(net /GND)(type protect))
+    (wire (path Top 250  153551 -145774  143451 -145774)(net /GND)(type protect))
+    (wire (path Bottom 250  170451 -95274  165371 -100354  165371 -102894)(net /GND)(type protect))
+    (wire (path Bottom 250  170303 -90300  170451 -90448  170451 -95274)(net /GND)(type protect))
+    (wire (path Bottom 250  102200 -103630  99400 -100830  99400 -96710)(net /GND)(type protect))
+    (wire (path Bottom 250  170450 -85779.6  170303 -85926.6  170303 -90300)(net /GND)(type protect))
+    (wire (path Top 250  153551 -145774  163751 -145774)(net /GND)(type protect))
+    (wire (path Bottom 250  160291 -95274  149033 -95274  136487 -82727.4  136487 -81329.6
+            135161 -80004)(net /MISO)(type protect))
+    (wire (path Bottom 250  162831 -95274  161065 -97039.8  149657 -97039.8  135161 -82544)(net /MOSI)(type protect))
+    (wire (path Top 250  165371 -95274  163623 -93526.3  143603 -93526.3  135161 -85084)(net /SCK)(type protect))
+    (wire (path Top 250  135161 -87624  133184 -89600.6  133184 -102322)(net /BLUE)(type protect))
+    (wire (path Bottom 250  121200 -127130  121200 -114306  133184 -102322)(net /BLUE)(type protect))
+    (wire (path Bottom 250  157361 -135004  157361 -114142  151350 -108131  151350 -106353
+            135161 -90164)(net /NUM)(type protect))
+    (wire (path Bottom 250  155868 -130176  155868 -114832  142061 -101026  142061 -99604.2
+            135161 -92704)(net /CAPS)(type protect))
+    (wire (path Top 250  167561 -135004  162733 -130176  155868 -130176)(net /CAPS)(type protect))
+    (wire (path Top 250  135161 -95244  133899 -96506.3  133899 -98278.5  134636 -99016.3
+            169539 -99016.3  169849 -98705.7  181938 -98705.7  184624 -96019.7
+            184624 -94149.6  185247 -93526.3  191232 -93526.3  192041 -94334.9
+            192041 -96199.7  192889 -97047.3  195098 -97047.3)(net "/ROW-1")(type protect))
+    (wire (path Bottom 250  135161 -95244  131106 -95244  107950 -118400  104500 -118400)(net "/ROW-1")(type protect))
+    (wire (path Top 250  195098 -97047.3  197625 -99574.8  197625 -114575)(net "/ROW-1")(type protect))
+    (wire (path Top 250  195098 -97047.3  195098 -68010.1  193581 -66493.6)(net "/ROW-1")(type protect))
+    (wire (path Top 250  101500 -118400  104500 -118400)(net "/ROW-1")(type protect))
+    (wire (path Bottom 250  135161 -97784  131060 -97784  109194 -119650  99500 -119650)(net "/ROW-2")(type protect))
+    (wire (path Top 250  191931 -75243.6  190803 -75243.6  171721 -94325.6  171721 -96263.5
+            170930 -97055  135890 -97055  135161 -97784)(net "/ROW-2")(type protect))
+    (wire (path Bottom 250  197625 -124575  198746 -123454  198746 -80192.1  193798 -75243.6
+            191931 -75243.6)(net "/ROW-2")(type protect))
+    (wire (path Bottom 250  104500 -120900  109217 -120900  129793 -100324  135161 -100324)(net "/ROW-3")(type protect))
+    (wire (path Bottom 250  197625 -127075  199197 -125503  199197 -77109.3  193581 -71493.6)(net "/ROW-3")(type protect))
+    (wire (path Top 250  104500 -120900  127795 -120900  133970 -127075  197625 -127075)(net "/ROW-3")(type protect))
+    (wire (path Top 250  101500 -120900  104500 -120900)(net "/ROW-3")(type protect))
+    (wire (path Top 250  167911 -95274  165492 -92855.3  146523 -92855.3  137482 -83814
+            121191 -83814  114841 -77464)(net /SS)(type protect))
+    (wire (path Bottom 250  137061 -135004  140166 -131899  140166 -98524.1  135626 -93984.5
+            128822 -93984.5  114841 -80004)(net /KEY)(type protect))
+    (wire (path Bottom 250  147261 -135004  151363 -130902  156168 -130902  156593 -130477
+            156593 -114136  150392 -107935  150392 -106153  135672 -91434
+            129220 -91434  116520 -78734  114332 -78734  113582 -79483.4
+            113582 -81285.1  114841 -82544)(net /SCR)(type protect))
+    (wire (path Bottom 250  183220 -145000  183220 -143825)(net "/ROW-7")(type protect))
+    (wire (path Top 250  183220 -145000  182045 -145000)(net "/ROW-7")(type protect))
+    (wire (path Top 250  106285 -145075  107460 -145075  107460 -144708  108268 -143900
+            130152 -143900  130685 -144433  169008 -144433  169616 -143825
+            181237 -143825  182045 -144633  182045 -145000)(net "/ROW-7")(type protect))
+    (wire (path Bottom 250  107511 -140084  107511 -133135  103403 -129027  103403 -127956
+            104209 -127150  104834 -127150  105604 -126380  105604 -125466
+            104947 -124809  104311 -124809  102587 -123086  102587 -122950
+            101947 -122309  101284 -122309  99875.1 -120900  99134 -120900
+            98412.6 -120179  98412.6 -114157  113396 -99173.6  113396 -94907.7
+            114330 -93974  115300 -93974  116055 -93219  116055 -92185.8
+            115304 -91434  114345 -91434  113619 -90708.2  113619 -86305.9
+            114841 -85084)(net "/ROW-7")(type protect))
+    (wire (path Bottom 250  106285 -143900  107511 -142674  107511 -140084)(net "/ROW-7")(type protect))
+    (wire (path Bottom 250  183220 -143825  185741 -141304  185741 -138434)(net "/ROW-7")(type protect))
+    (wire (path Bottom 250  106285 -145075  106285 -143900)(net "/ROW-7")(type protect))
+    (wire (path Bottom 250  105071 -70243.6  113132 -78304.3  113132 -82560.5  114385 -83814
+            115348 -83814  116064 -84529.9  116064 -86400.7  114841 -87624)(net "/ROW-6")(type protect))
+    (wire (path Top 250  106261 -138434  105414 -138434  97467.1 -130487  97467.1 -101297
+            103239 -95525.4  108684 -95525.4  109618 -96459.2  115344 -96459.2
+            116064 -95739.4  116064 -88846.8  114841 -87624)(net "/ROW-6")(type protect))
+    (wire (path Top 250  106261 -141406  106261 -138434)(net "/ROW-6")(type protect))
+    (wire (path Top 250  105071 -70243.6  104671 -70243.6  103421 -68993.6)(net "/ROW-6")(type protect))
+    (wire (path Bottom 250  185760 -145000  185760 -143825  186991 -142594  186991 -140084)(net "/ROW-6")(type protect))
+    (wire (path Top 250  185760 -145000  184585 -145000)(net "/ROW-6")(type protect))
+    (wire (path Top 250  106261 -141406  181358 -141406  184585 -144633  184585 -145000)(net "/ROW-6")(type protect))
+    (wire (path Top 250  103745 -143900  106239 -141406  106261 -141406)(net "/ROW-6")(type protect))
+    (wire (path Top 250  103745 -145075  103745 -143900)(net "/ROW-6")(type protect))
+    (wire (path Top 250  197625 -129575  197501 -129451  124757 -129451  123838 -128532
+            107132 -128532  104500 -125900)(net "/ROW-5")(type protect))
+    (wire (path Top 250  103421 -76493.6  105316 -76493.6  112546 -83723.8  112546 -87868.7
+            114841 -90164)(net "/ROW-5")(type protect))
+    (wire (path Bottom 250  101500 -125900  101500 -125108  99791.6 -123400  99207.8 -123400
+            97453.6 -121646  97453.6 -82461  103421 -76493.6)(net "/ROW-5")(type protect))
+    (wire (path Bottom 250  104500 -125900  101500 -125900)(net "/ROW-5")(type protect))
+    (wire (path Top 250  192625 -128325  128443 -128325  122268 -122150  99500 -122150)(net "/ROW-4")(type protect))
+    (wire (path Top 250  195625 -128325  192625 -128325)(net "/ROW-4")(type protect))
+    (wire (path Bottom 250  114841 -92704  111962 -95582.6  111962 -99970.1  97947.5 -113985
+            97947.5 -120598  99500 -122150)(net "/ROW-4")(type protect))
+    (wire (path Bottom 250  114841 -92704  106944 -84806.6  106944 -74616.2  105071 -72743.6)(net "/ROW-4")(type protect))
+    (wire (path Top 250  103800 -89190  109854 -95244  114841 -95244)(net "Net-(R4-PadP$1)")(type protect))
+    (wire (path Top 250  102200 -106170  101062 -105032  101062 -103113  106391 -97784
+            114841 -97784)(net /EN)(type protect))
+    (wire (path Top 250  103151 -75243.6  102378 -76017  102378 -77950.4  103421 -78993.6)(net "/COL-N")(type protect))
+    (wire (path Top 250  105071 -75243.6  103151 -75243.6)(net "/COL-N")(type protect))
+    (wire (path Top 250  103421 -66493.6  102374 -67541  102374 -74466  103151 -75243.6)(net "/COL-N")(type protect))
+    (wire (path Top 250  191931 -72743.6  191021 -73654  106661 -73654  105071 -75243.6)(net "/COL-N")(type protect))
+    (wire (path Bottom 250  180611 -95274  182360 -97022.6  183586 -97022.6  184421 -96188.1
+            184421 -85253.6  191931 -77743.6)(net "/COL-N")(type protect))
+    (wire (path Bottom 250  191931 -72743.6  190880 -73794.6  190880 -76692.6  191931 -77743.6)(net "/COL-N")(type protect))
+    (wire (path Bottom 250  193581 -68993.6  191720 -68993.6  190890 -69824  190890 -71702.5
+            191931 -72743.6)(net "/COL-N")(type protect))
+    (wire (path Top 250  193581 -78993.6  194647 -77927.5  194647 -75059.7  193581 -73993.6)(net "/COL-O")(type protect))
+    (wire (path Top 250  178071 -95274  178071 -92586.9  191664 -78993.6  193581 -78993.6)(net "/COL-O")(type protect))
+    (wire (path Bottom 250  178071 -95274  178071 -88769.7  172089 -82787.3  162278 -82787.3
+            147234 -67743.6  105071 -67743.6  103146 -67743.6  102388 -68501.9
+            102388 -72960.6  103421 -73993.6  105284 -73993.6  106108 -74818.3
+            106108 -76706.4  105071 -77743.6)(net "/COL-O")(type protect))
+    (wire (path Top 250  193581 -73993.6  194631 -72943.9  194631 -71035.4  193839 -70243.6
+            191931 -70243.6)(net "/COL-O")(type protect))
+    (wire (path Top 250  191931 -67743.6  113621 -67743.6  109871 -71493.6  103421 -71493.6)(net "/COL-M")(type protect))
+    (wire (path Bottom 250  183151 -95274  183151 -76523.6  191931 -67743.6)(net "/COL-M")(type protect))
+    (wire (path Top 250  188231 -95274  183899 -99606.3  170448 -99606.3  169356 -100698
+            167914 -100698  166853 -101758  166853 -104219  164841 -106231
+            151783 -106231  148849 -109165  134618 -109165  129134 -114650
+            99500 -114650  99500 -114650)(net "/COL-K")(type protect))
+    (wire (path Top 250  104500 -115900  133568 -115900  139656 -109812  163410 -109812
+            169181 -104040  169181 -101953  170891 -100243  185802 -100243
+            190771 -95274)(net "/COL-J")(type protect))
+    (wire (path Top 250  101500 -115900  104500 -115900)(net "/COL-J")(type protect))
+    (wire (path Bottom 250  108825 -145075  108825 -143900  108761 -143836  108761 -138434)(net "/COL-J")(type protect))
+    (wire (path Top 250  108761 -138434  103598 -133271  100888 -133271  97927.1 -130310
+            97927.1 -119669  99033.3 -118563  99625.3 -118563  101500 -116688
+            101500 -115900)(net "/COL-J")(type protect))
+    (wire (path Top 250  185691 -97021.7  183557 -99156  170036 -99156  169586 -99606.3
+            166459 -99606.3  164101 -101964  164101 -103805  163236 -104670
+            147531 -104670  145527 -106674  134674 -106674  127457 -113892
+            117888 -113892)(net "/COL-L")(type protect))
+    (wire (path Top 250  185691 -95274  185691 -97021.7)(net "/COL-L")(type protect))
+    (wire (path Bottom 250  117888 -113892  108380 -123400  104500 -123400)(net "/COL-L")(type protect))
+    (wire (path Top 250  101500 -123400  104500 -123400)(net "/COL-L")(type protect))
+    (wire (path Top 250  139396 -115906  144263 -111040  164497 -111040  171721 -103816
+            171721 -101927  172954 -100693  191110 -100693  193311 -102894)(net "/COL-H")(type protect))
+    (wire (path Bottom 250  111261 -138434  117568 -132127  123176 -132127  139396 -115906)(net "/COL-H")(type protect))
+    (wire (path Bottom 250  113905 -143900  111261 -141256  111261 -138434)(net "/COL-H")(type protect))
+    (wire (path Top 250  111261 -138434  104143 -131316  99586.1 -131316  98410 -130140
+            98410 -128240  99500 -127150)(net "/COL-H")(type protect))
+    (wire (path Bottom 250  113905 -145075  113905 -143900)(net "/COL-H")(type protect))
+    (wire (path Bottom 250  105528 -128899  105028 -128400  104500 -128400)(net "/COL-I")(type protect))
+    (wire (path Bottom 250  110011 -140084  110011 -133383  105528 -128899  132833 -101594
+            135714 -101594  138832 -98476  138832 -98255.4)(net "/COL-I")(type protect))
+    (wire (path Top 250  193311 -93526.3  192861 -93076  180584 -93076  179341 -94319
+            179341 -96213  177299 -98255.4  138832 -98255.4)(net "/COL-I")(type protect))
+    (wire (path Bottom 250  111365 -143900  110011 -142546  110011 -140084)(net "/COL-I")(type protect))
+    (wire (path Top 250  193311 -95274  193311 -93526.3)(net "/COL-I")(type protect))
+    (wire (path Top 250  104500 -128400  101500 -128400)(net "/COL-I")(type protect))
+    (wire (path Bottom 250  111365 -145075  111365 -143900)(net "/COL-I")(type protect))
+    (wire (path Bottom 250  139284 -122561  117945 -143900  116445 -143900)(net "/COL-G")(type protect))
+    (wire (path Top 250  190771 -102894  189021 -101144  175102 -101144  174175 -102071
+            174175 -103902  155516 -122561  139284 -122561)(net "/COL-G")(type protect))
+    (wire (path Bottom 250  116445 -145075  116445 -143900  116327 -143900  112511 -140084)(net "/COL-G")(type protect))
+    (wire (path Top 250  99500 -129650  103937 -129650  112511 -138224  112511 -140084)(net "/COL-G")(type protect))
+    (wire (path Bottom 250  193717 -116371  195079 -116371  195625 -115825)(net "/COL-F")(type protect))
+    (wire (path Bottom 250  192625 -115825  193171 -116371  193717 -116371  193717 -121277
+            192919 -122075  192324 -122075  184491 -129908  184491 -140084)(net "/COL-F")(type protect))
+    (wire (path Bottom 250  180680 -145000  180680 -143825)(net "/COL-F")(type protect))
+    (wire (path Bottom 250  184491 -140084  180750 -143825  180680 -143825)(net "/COL-F")(type protect))
+    (wire (path Bottom 250  188231 -102894  192625 -107288  192625 -115825)(net "/COL-F")(type protect))
+    (wire (path Bottom 250  175600 -145000  176775 -145000)(net "/COL-E")(type protect))
+    (wire (path Bottom 250  181991 -140084  181324 -140084  176775 -144633  176775 -145000)(net "/COL-E")(type protect))
+    (wire (path Top 250  197625 -117075  198714 -118164  198714 -130062  191389 -137387
+            182807 -137387  181991 -138203  181991 -140084)(net "/COL-E")(type protect))
+    (wire (path Top 250  185691 -102894  192593 -109796  192593 -111255  197625 -116287
+            197625 -117075)(net "/COL-E")(type protect))
+    (wire (path Bottom 250  190741 -138434  194538 -134637  194538 -119454  194578 -119414
+            194578 -119372  195625 -118325)(net "/COL-D")(type protect))
+    (wire (path Top 250  192625 -118325  183151 -108851  183151 -102894)(net "/COL-D")(type protect))
+    (wire (path Top 250  192625 -118325  195625 -118325)(net "/COL-D")(type protect))
+    (wire (path Bottom 250  193380 -145000  193380 -143825  190741 -141186  190741 -138434)(net "/COL-D")(type protect))
+    (wire (path Top 250  180611 -102894  180611 -108811  192625 -120825)(net "/COL-C")(type protect))
+    (wire (path Bottom 250  192625 -120825  183241 -130209  183241 -138434)(net "/COL-C")(type protect))
+    (wire (path Bottom 250  179315 -145000  179315 -144271  183241 -140345  183241 -138434)(net "/COL-C")(type protect))
+    (wire (path Bottom 250  178140 -145000  179315 -145000)(net "/COL-C")(type protect))
+    (wire (path Top 250  192625 -120825  195625 -120825)(net "/COL-C")(type protect))
+    (wire (path Top 250  197625 -122075  192326 -122075  178071 -107820  178071 -102894)(net "/COL-B")(type protect))
+    (wire (path Top 250  192625 -123325  175531 -106231  175531 -102894)(net "/COL-A")(type protect))
+    (wire (path Top 250  195625 -123325  192625 -123325)(net "/COL-A")(type protect))
+    (wire (path Top 250  167911 -104642  164653 -107900  153710 -107900)(net "Net-(MCP23S17-Pad18)")(type protect))
+    (wire (path Top 250  167911 -102894  167911 -104642)(net "Net-(MCP23S17-Pad18)")(type protect))
+    (wire (path Bottom 250  163751 -143234  159941 -139424  159941 -135004)(net "Net-(LED1-PadA)")(type protect))
+    (wire (path Bottom 250  153551 -143234  149741 -139424  149741 -135004)(net "Net-(LED2-PadA)")(type protect))
+    (wire (path Bottom 250  143451 -143234  139641 -139424  139641 -135004)(net "Net-(LED3-PadA)")(type protect))
+    (wire (path Bottom 250  133251 -143234  129441 -139424  129441 -135004)(net "Net-(LED4-PadA)")(type protect))
+    (wire (path Top 250  192625 -125825  195625 -125825)(net "Net-(J2-Pad10)")(type protect))
+    (via "Via[0-1]_800:400_um"  164931 -105115 (net /3V@1)(type protect))
+    (via "Via[0-1]_800:400_um"  133184 -102322 (net /BLUE)(type protect))
+    (via "Via[0-1]_800:400_um"  155868 -130176 (net /CAPS)(type protect))
+    (via "Via[0-1]_800:400_um"  117888 -113892 (net "/COL-L")(type protect))
+    (via "Via[0-1]_800:400_um"  139396 -115906 (net "/COL-H")(type protect))
+    (via "Via[0-1]_800:400_um"  138832 -98255.4 (net "/COL-I")(type protect))
+    (via "Via[0-1]_800:400_um"  139284 -122561 (net "/COL-G")(type protect))
   )
 )
